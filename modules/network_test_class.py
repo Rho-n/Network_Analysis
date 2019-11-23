@@ -8,7 +8,7 @@ from pythonping import ping
 import argparse
 import logging
 import traceback
-from visuals import InteractivePlots
+from modules.visuals import InteractivePlots
 
 # define logger
 main_logger = logging.getLogger("main_logger")
