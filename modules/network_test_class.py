@@ -199,7 +199,7 @@ class NetworkTest:
                   "\n**************************\n")
 
     def run_network_test_and_generate_graphs(self):
-        visuals = InteractivePlots()
+        visuals = InteractivePlots(os.path.join("."), self.ping_file_path, self.speed_test_file_path)
         print("#### Currently analyzing the network ####")
         try:
             while True:
